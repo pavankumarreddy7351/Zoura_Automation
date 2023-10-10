@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ZouraSuite">
+	<listeners>
+<listener class-name="Automation.Workday.Listeners.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="AutomationTest">
+    <classes>
+      <class name="Automation.Workday.TestCases.ZoruaTestCases"/>
+    </classes>
+  </test> <!-- AutomationTest -->
+</suite> <!-- ZouraSuite -->
