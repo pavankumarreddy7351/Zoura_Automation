@@ -8,12 +8,57 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,987</td><td></td><td></td></tr>
+<tr><th colspan="8">ZouraSuite</th></tr>
+<tr><td><a href="#t0">AutomationTest</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">45,221</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Automation.Workday.TestCases.ZoruaTestCases</td><td><a href="#m0">loginPage</a></td><td rowspan="1">1696933427051</td><td rowspan="1">2582</td></tr><tr class="passedeven"><td><a href="#m1">sandbox</a></td><td rowspan="1">1696933429717</td><td rowspan="1">9277</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ZouraSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AutomationTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Automation.Zuora.TestCases.ZoruaTestCases</td><td><a href="#m0">accountingCreate</a></td><td rowspan="1">1697103422729</td><td rowspan="1">7146</td></tr><tr class="failedeven"><td><a href="#m1">orderPage</a></td><td rowspan="1">1697103430013</td><td rowspan="1">10155</td></tr><tr><th colspan="4">AutomationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">Automation.Zuora.TestCases.ZoruaTestCases</td><td><a href="#m2">accountDetails</a></td><td rowspan="1">1697103422346</td><td rowspan="1">276</td></tr><tr class="passedeven"><td><a href="#m3">customerDetails</a></td><td rowspan="1">1697103413406</td><td rowspan="1">8813</td></tr><tr class="passedeven"><td><a href="#m4">loginPage</a></td><td rowspan="1">1697103395378</td><td rowspan="1">2989</td></tr><tr class="passedeven"><td><a href="#m5">sandbox</a></td><td rowspan="1">1697103398652</td><td rowspan="1">14562</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Automation.Workday.TestCases.ZoruaTestCases#loginPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">userName<br/>passWord<br/>checkBox<br/>sign</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Automation.Workday.TestCases.ZoruaTestCases#sandbox</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">myApps<br/>sandBox</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AutomationTest</h2><h3 id="m0">Automation.Zuora.TestCases.ZoruaTestCases#accountingCreate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: MicrosoftEdge=117.0.2045.55)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BA-000311899&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.55, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:53081}, msedge: {msedgedriverVersion: 117.0.2045.60 (a31cef5dc4c1..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8558d5dfa3ee3deffb1407a3988dd94
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at Automation.Zuora.BaseClass.Common_Methods.clear(Common_Methods.java:30)
+	at Automation.Zuora.PageObjectModel.Account_Creation.createAccount(Account_Creation.java:37)
+	at Automation.Zuora.TestCases.ZoruaTestCases.accountingCreate(ZoruaTestCases.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Automation.Zuora.TestCases.ZoruaTestCases#orderPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;z-action-nav&quot;]/li[2]/a/span&quot;}
+  (Session info: MicrosoftEdge=117.0.2045.55)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BA-000311899&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.55, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:53081}, msedge: {msedgedriverVersion: 117.0.2045.60 (a31cef5dc4c1..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8558d5dfa3ee3deffb1407a3988dd94
+*** Element info: {Using=xpath, value=//*[@id=&quot;z-action-nav&quot;]/li[2]/a/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Automation.Zuora.PageObjectModel.Create_Order_Page.createOrder(Create_Order_Page.java:23)
+	at Automation.Zuora.TestCases.ZoruaTestCases.orderPage(ZoruaTestCases.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Automation.Zuora.TestCases.ZoruaTestCases#accountDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Automation.Zuora.TestCases.ZoruaTestCases#customerDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Automation.Zuora.TestCases.ZoruaTestCases#loginPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">userName<br/>passWord<br/>checkBox<br/>sign</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Automation.Zuora.TestCases.ZoruaTestCases#sandbox</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">myApps<br/>sandBox</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

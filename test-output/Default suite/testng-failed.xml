@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.Workday.TestCases.ZoruaTestCases">
+      <class name="Automation.Zuora.TestCases.ZoruaTestCases">
         <methods>
-          <include name="sandbox"/>
-          <include name="closeApplication"/>
+          <include name="orderPage"/>
           <include name="launchApplication"/>
+          <include name="closeApplication"/>
         </methods>
-      </class> <!-- Automation.Workday.TestCases.ZoruaTestCases -->
+      </class> <!-- Automation.Zuora.TestCases.ZoruaTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
