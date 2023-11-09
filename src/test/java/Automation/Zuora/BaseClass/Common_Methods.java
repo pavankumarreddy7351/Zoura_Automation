@@ -3,11 +3,13 @@ package Automation.Zuora.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 public class Common_Methods {
 	public static WebDriver driver;
 	public static Actions action;
+	public static ChromeOptions options;
 	public static WebElement Xpath(By Xpath) {
 		return driver.findElement(Xpath);
 	}

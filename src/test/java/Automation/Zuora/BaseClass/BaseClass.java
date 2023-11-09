@@ -35,14 +35,14 @@ public class BaseClass extends Common_Methods {
 		if (pro.getProperty("browser").equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			// configure options parameter to Chrome driver
-			ChromeOptions o = new ChromeOptions();
+			options = new ChromeOptions();
 			// add Incognito parameter
-			o.addArguments("--incognito");
+			options.addArguments("--incognito");
 			// DesiredCapabilities object
 			DesiredCapabilities c = DesiredCapabilities.chrome();
 			// set capability to browser
-			c.setCapability(ChromeOptions.CAPABILITY, o);
-			driver = new ChromeDriver(o);
+			c.setCapability(ChromeOptions.CAPABILITY, options);
+			driver = new ChromeDriver(options);
 		} else if (pro.getProperty("browser").equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
