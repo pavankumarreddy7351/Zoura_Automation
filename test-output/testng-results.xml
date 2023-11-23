@@ -20,16 +20,16 @@
       <![CDATA[sandBox]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-17T09:46:36 IST" name="ZouraSuite" finished-at="2023-10-17T09:48:38 IST" duration-ms="121461">
+  <suite started-at="2023-11-23T14:59:12 IST" name="ZouraSuite" finished-at="2023-11-23T15:01:11 IST" duration-ms="119128">
     <groups>
     </groups>
-    <test started-at="2023-10-17T09:46:36 IST" name="AutomationTest" finished-at="2023-10-17T09:48:38 IST" duration-ms="121461">
+    <test started-at="2023-11-23T14:59:12 IST" name="AutomationTest" finished-at="2023-11-23T15:01:11 IST" duration-ms="119128">
       <class name="Automation.Zuora.TestCases.ZoruaTestCases">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:46:26 IST" name="launchApplication" finished-at="2023-10-17T09:46:36 IST" duration-ms="10278" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:58:58 IST" name="launchApplication" finished-at="2023-11-23T14:59:12 IST" duration-ms="13657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginPage()[pri:1, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:46:37 IST" name="loginPage" finished-at="2023-10-17T09:46:40 IST" duration-ms="3012" status="PASS">
+        <test-method signature="loginPage()[pri:1, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:12 IST" name="loginPage" finished-at="2023-11-23T14:59:15 IST" duration-ms="2994" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[userName]]>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method signature="sandbox()[pri:2, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:46:40 IST" name="sandbox" finished-at="2023-10-17T09:46:55 IST" duration-ms="14633" status="PASS">
+        <test-method signature="sandbox()[pri:2, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:16 IST" name="sandbox" finished-at="2023-11-23T14:59:30 IST" duration-ms="14730" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[myApps]]>
@@ -55,23 +55,23 @@
             </line>
           </reporter-output>
         </test-method> <!-- sandbox -->
-        <test-method signature="customerDetails()[pri:3, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:46:55 IST" name="customerDetails" finished-at="2023-10-17T09:47:04 IST" duration-ms="9419" status="PASS">
+        <test-method signature="customerDetails()[pri:3, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:30 IST" name="customerDetails" finished-at="2023-11-23T14:59:39 IST" duration-ms="8894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerDetails -->
-        <test-method signature="accountDetails()[pri:4, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:47:04 IST" name="accountDetails" finished-at="2023-10-17T09:47:05 IST" duration-ms="313" status="PASS">
+        <test-method signature="accountDetails()[pri:4, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:40 IST" name="accountDetails" finished-at="2023-11-23T14:59:40 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountDetails -->
-        <test-method signature="accountingCreate()[pri:5, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:47:05 IST" name="accountingCreate" finished-at="2023-10-17T09:47:25 IST" duration-ms="19626" status="PASS">
+        <test-method signature="accountingCreate()[pri:5, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:40 IST" name="accountingCreate" finished-at="2023-11-23T14:59:58 IST" duration-ms="18168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountingCreate -->
-        <test-method signature="orderPage()[pri:6, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:47:25 IST" name="orderPage" finished-at="2023-10-17T09:48:38 IST" duration-ms="73088" status="PASS">
+        <test-method signature="orderPage()[pri:6, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T14:59:58 IST" name="orderPage" finished-at="2023-11-23T15:01:11 IST" duration-ms="72580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderPage -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-10-17T09:48:40 IST" name="closeApplication" finished-at="2023-10-17T09:48:41 IST" duration-ms="621" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Automation.Zuora.TestCases.ZoruaTestCases@6d025197]" started-at="2023-11-23T15:01:13 IST" name="closeApplication" finished-at="2023-11-23T15:01:14 IST" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

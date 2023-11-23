@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.Zuora.TestCases.ZoruaTestCases">
+      <class name="Random_Gmail.AccountCreation">
         <methods>
-          <include name="orderPage"/>
+          <include name="genrateMail"/>
           <include name="launchApplication"/>
           <include name="closeApplication"/>
         </methods>
-      </class> <!-- Automation.Zuora.TestCases.ZoruaTestCases -->
+      </class> <!-- Random_Gmail.AccountCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
